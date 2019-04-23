@@ -1,0 +1,233 @@
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero-para {
+  font-size: 3rem;
+  margin: -3% 0 0;
+  padding: 0;
+  font-family: 'EB Garamond';
+  font-weight: 300;
+}
+
+#and,
+#hii-email,
+#title {
+  font-weight: 700;
+}
+
+#and {
+  font-size: 4rem;
+  font-family: 'Cinzel Decorative';
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.sub-title {
+  font-size: 15px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.t-first {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.and {
+  font-size: 1.5rem;
+  font-family: 'Cinzel Decorative';
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.and-para {
+  font-size: 1.2rem;
+  font-family: 'Cinzel Decorative';
+  margin-left: 3px;
+  margin-right: 5px;
+}
+
+#title {
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+
+#hii-email,
+.follow {
+  font-size: 2rem;
+  color: #000;
+}
+
+#hii-email {
+  font-family: 'EB Garamond';
+  text-decoration: none;
+}
+
+#hii-email:hover {
+  text-decoration: underline;
+}
+
+.follow {
+  text-decoration: none;
+  padding-right: 4%;
+}
+
+.follow:hover {
+  color: #000;
+}
+
+#footer-and {
+  font-family: 'Cinzel Decorative';
+  font-size: 21px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#footer-para {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 2;
+}
+
+#country {
+  margin-top: -1%;
+}
+
+#sayhii {
+  padding: 3% 0;
+}
+
+.column-left {
+  padding: 6% 3% !important;
+}
+
+#sayhii .column-left {
+  background-color: #fff;
+  color: #000;
+}
+
+#sayhii hr {
+  margin-right: 87%;
+  border: 1.5px solid #000;
+}
+
+#cover-img {
+  background-image: url(../../assets/img/itsme.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#cv-body {
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+}
+
+#cv-box {
+  position: relative;
+  margin: 40px auto;
+  width: 90%;
+  background: #fff;
+  border-radius: 2px;
+  padding: 5% 5%;
+}
+
+#cv-box a {
+  text-decoration: none;
+  color: #5200d6;
+}
+
+#cv-box::before,
+#cv-box::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  width: 15%;
+  height: 10px;
+  -webkit-box-shadow: 0 5px 14px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 5px 14px rgba(0, 0, 0, 0.7);
+  z-index: -1;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#cv-box::before {
+  left: 15px;
+  -webkit-transform: skew(-5deg) rotate(-5deg);
+          transform: skew(-5deg) rotate(-5deg);
+}
+
+#cv-box::after {
+  right: 15px;
+  -webkit-transform: skew(5deg) rotate(5deg);
+          transform: skew(5deg) rotate(5deg);
+}
+
+#cv-box:hover::before,
+#cv-box:hover::after {
+  -webkit-box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
+}
+
+#cv-box:hover::before {
+  left: 5px;
+}
+
+#cv-box:hover::after {
+  right: 5px;
+}
+
+#cv-main-body {
+  margin-top: 4%;
+}
+
+.cv-sec-title {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #5200d6;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.cv-sec-body {
+  padding: 1% 0;
+}
+
+.cv-sec-body .cv-sec-para {
+  text-indent: 50px;
+  text-align: justify;
+}
+
+.val-top {
+  vertical-align: top;
+}
+
+@media (max-width: 767px) {
+  #cover-img {
+    background-image: url(../../assets/img/itsme.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+/*# sourceMappingURL=style.css.map */
