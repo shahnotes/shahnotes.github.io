@@ -127,7 +127,7 @@
 }
 
 #cover-img {
-  background-image: url(../../assets/img/itsme.jpg);
+  background-image: url(../../assets/img/mypic-v2.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -223,7 +223,7 @@
 
 @media (max-width: 767px) {
   #cover-img {
-    background-image: url(../../assets/img/itsme.jpg);
+    background-image: url(../../assets/img/mypic-v2.jpg);
     height: 400px;
     background-position: center;
     background-size: cover;
